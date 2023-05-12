@@ -42,7 +42,7 @@ contract LightClient is ILightClient, StepVerifier, RotateVerifier {
 
     uint256 internal constant MIN_SYNC_COMMITTEE_PARTICIPANTS = 10;
     uint256 internal constant SYNC_COMMITTEE_SIZE = 512;
-    uint256 internal constant FINALIZED_ROOT_INDEX = 105;
+    uint256 internal constant FINALIZED_ROOT_INDEX = 103; // change to justified
     uint256 internal constant NEXT_SYNC_COMMITTEE_INDEX = 55;
     uint256 internal constant EXECUTION_STATE_ROOT_INDEX = 402;
 
